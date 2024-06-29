@@ -1,0 +1,78 @@
+/* Style par défaut (pour les ordinateurs de bureau) */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+  }
+  
+  h1 {
+    font-size: 2em;
+    margin-bottom: 0.5em;
+  }
+  
+  p {
+    line-height: 1.5;
+  }
+  
+  /* Style pour les tablettes (768px et plus) */
+  @media (min-width: 768px) {
+    /* Ajuster la largeur des sections */
+    .section__first,
+    .section__second,
+    .section__third,
+    .section__four,
+    .section__faq {
+      width: 50%;
+      float: left; /* Permet de placer les sections côte à côte */
+      margin-bottom: 20px; /* Espacement entre les sections */
+    }
+  
+    /* Ajuster la taille des images */
+    .video-image__container img,
+    .second__content-image,
+    .four__content-image {
+      width: 100%; /* Les images occupent toute la largeur de leur conteneur */
+    }
+  
+    /* Ajuster la mise en page du formulaire d'inscription à la newsletter */
+    .hero__email-sign-up {
+      text-align: center; /* Centrer le formulaire */
+    }
+  }
+  
+  /* Style pour les téléphones (moins de 768px) */
+  @media (max-width: 768px) {
+    /* Supprimer le flottement des sections et les afficher verticalement */
+    .section__first,
+    .section__second,
+    .section__third,
+    .section__four,
+    .section__faq {
+      width: 100%; /* Les sections occupent toute la largeur */
+      float: none; /* Annuler le flottement */
+      margin-bottom: 20px;
+    }
+  
+    /* Ajuster la taille des titres */
+    h1 {
+      font-size: 1.5em;
+    }
+  
+    /* Ajuster la taille des paragraphes */
+    p {
+      font-size: 1em;
+    }
+  
+    /* Ajuster la taille des images */
+    .video-image__container img,
+    .second__content-image,
+    .four__content-image {
+      width: 100%; /* Les images occupent toute la largeur de leur conteneur */
+    }
+  
+    /* Ajuster la mise en page du formulaire d'inscription à la newsletter */
+    .hero__email-sign-up {
+      text-align: center; /* Centrer le formulaire */
+    }
+  }
+  

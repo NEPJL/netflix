@@ -1,0 +1,427 @@
+/* header */
+header{
+    width: 100%;
+    height: 100vh;
+    position: relative;
+    justify-content: center;
+    text-align: center;
+    display: flex;
+
+    background-image: url('/assets/images/bc-image.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    
+
+}
+
+nav{
+    display: flex;
+    justify-content: space-between;
+    width: 1052px;
+    height: 90px;
+    align-items: center;
+    padding: 10px 0;
+    /* border: 1px solid red; */
+    margin: 0 auto;
+}
+
+/* logo */
+.logo{
+    width: 150px;
+    cursor: pointer;
+    
+}
+
+nav button{
+     background: #db0001;
+     color: var(--blanc-netflix);
+     font-size: var(--taille-texte-netflix);
+     font-weight: bold;
+     border: 0;
+     outline: 0;
+     padding: 7px 20px;
+     cursor: pointer;
+     border-radius: 4px;
+    
+}
+
+.header__hero{
+    position: absolute;
+    top: 30%;
+    text-align: center;
+    justify-content: center;
+    
+
+}
+
+.header__hero h1{
+    font-size: var(--taille-big-netflix);
+    line-height: 70px;
+    font-weight: 900;
+
+}
+
+.header__hero h3{
+    font-weight: 400;
+    margin-bottom: 20px;
+    font-size: var(--taille-sous-titre-netflix);
+}
+
+/* bouton commencer */
+.hero__email-sign-up{
+    width: 576px;
+    height: 56px;
+    gap: 10px;
+    display: flex;
+    align-items: center;
+    margin-top: 30px;
+    overflow: hidden;
+    margin: 0 auto;
+    padding: 10px 20px;
+
+
+}
+
+.email__sign-up{
+    width: 363px;
+    height: 56px;
+    border: 0;
+    border-radius: 4px;
+    outline: 0;
+    margin-left: 20px;
+}
+
+.hero__email-sign-up button{
+    background-color: var(--rouge-netflix-seconde);
+    width: 215px;
+    height: 56px;
+    border: 0;
+    border-radius: 4px;
+    outline: 0;
+    color: var(--blanc-netflix);
+    font-size: var(--taille-texte-netflix);
+    cursor: pointer;
+    padding: 10px 30px;
+}
+
+
+/* ************************************************************** */
+.section__first{
+    background-color: var(--noir-netflix);
+    width: 100%;
+    height: 533px;
+    display: flex;
+    padding: 50px 12px;
+    font-size: var(--taille-sous-titre-netflix);
+    box-sizing: border-box;
+    border-top: 10px solid #333;
+}
+
+.first__content{
+    box-sizing: border-box;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 50px;
+    
+
+}
+
+.content__desc{
+    width: 500px;
+    padding: 10px 115px;
+    /* border: 1px solid red; */
+}
+
+.content__desc h2{
+    font-size: var(--taille-big-netflix);
+    font-weight: 900;
+}
+
+.video-image__container{
+   
+    
+    /* border: 1px solid red; */
+}
+
+.video-image__container img{
+    /* z-index: 5; */
+    width: 90%;
+    margin: auto;
+}
+
+/* .video-image__container video{
+    position: relative;
+} */
+
+/********************************************************************/
+.section__second{
+    width: 100%;
+    height: 533px;
+    display: flex;
+    box-sizing: border-box;
+    justify-content: center;
+    border-top: 10px solid #333;
+    align-items: center;
+    
+}
+
+.second__content{
+    box-sizing: border-box;
+    width: 918px;
+    height: 425px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 50px;
+}
+.second__content-image{
+    width: 420px;
+    height: 369px;
+    box-sizing: border-box;
+    justify-content: center;
+    
+
+}
+.second__content-desc{
+    box-sizing: border-box;
+    width: 500px;
+    height: 369px;
+    box-sizing: border-box;
+    justify-content: center;
+    /* border: 1px solid red; */
+    display: flex;
+    flex-direction: column;
+
+}
+
+.second__content-desc h2{
+    font-size: var(--taille-big-netflix);
+}
+.second__content-desc p{
+    font-size: var(--taille-sous-titre-netflix);
+}
+
+/********************************************************************/
+.section__third{
+    width: 100%;
+    height: 410px;
+    display: flex;
+    box-sizing: border-box;
+    border-top: 10px solid #333;
+
+    
+}
+
+.third__content{
+    width: 500px;
+    box-sizing: border-box;
+    display: block;
+    justify-items: center;
+
+    margin-left: 180px;
+    padding-top: 30px;
+    
+}
+
+.third__content h2{
+    font-size: var(--taille-big-netflix);
+    
+}
+.third__content p{
+    font-size: var(--taille-sous-titre-netflix);
+
+}
+/* ****************************************************************** */
+.section__four{
+    width: 100%;
+    height: 532px;
+    display: flex;
+    justify-content: center;
+    box-sizing: border-box;
+    border-top: 10px solid #333;
+    margin-bottom: 10px;
+}
+
+.four__content{
+    box-sizing: border-box;
+    justify-content: space-between;
+    align-items: center;
+    display: flex;
+    gap: 100px;
+    
+}
+
+.four__content-image{
+    box-sizing: border-box;
+    
+    justify-content: center;
+    align-items: center;
+    
+    
+}
+
+.four__content-image img{
+    margin-bottom: 10px;
+    height: 374px;
+    width: 487px;
+}
+
+.four__content-desc{
+    display: block;
+    box-sizing: border-box;
+    height: 400px;
+    width: 500px;
+    padding-top: 20px;
+}
+
+.four__content-desc h2{
+    font-size: var(--taille-big-netflix);
+}
+
+.four__content-desc p{
+    font-size: var(--taille-sous-titre-netflix);
+    margin-top: 0;
+}
+
+/* ******************************************************************* */
+
+.section__faq{
+    box-sizing: border-box;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    height: 925px;
+    border-top: 10px solid #333;
+    margin-top: 10px;
+    text-align: center;
+    font-size: var(--taille-sous-titre-netflix);
+    }
+
+.section__faq h2{
+    font-weight: 900;
+    font-size: var(--taille-big-netflix);
+}
+
+.questions{
+    margin: 0 auto;
+    width: 100%;
+    max-width: 750px;
+    /* border: 1px solid red; */
+    box-sizing: border-box;
+}
+
+.questions li{
+    list-style: none;
+    width: 100%;
+    padding: 5px;
+}
+
+.questions li label{
+    display: flex;
+    align-items: center;
+    padding: 20px;
+    font-size: var(--taille-sous-titre-netflix);
+    font-weight: 400;
+    background: var(--gris-netflix-fonce);
+    cursor: pointer;
+    position: relative;
+}
+
+label::after{
+    content: "+";
+    font-size: var(--taille-sous-titre-netflix);
+    position: absolute;
+    right: 20px;
+    transition: transform 0.5s;
+
+}
+
+input[type="radio"]{
+    display: none;
+}
+
+.questions .content{
+    background: var(--gris-netflix-fonce);
+    text-align: left;
+    padding: 0 20px;
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 0.5s, padding 0.5s;
+}
+
+.questions input[type="radio"]:checked + label + .content{
+    max-height: 600px;
+    padding: 30px 20px;
+}
+
+.questions input[type="radio"]:checked + label::after{
+    transform: rotate(135deg);
+}
+.titre{
+    text-align: center;
+    font-size: var(--taille-sous-titre-netflix);
+    margin-bottom: 2em;
+}
+
+/* ********************************************************** */
+footer{
+    width: 100%;
+    height: 414px;
+    padding: 50px 15px 10px;
+    border-top: 10px solid #333;
+    color: #777;
+    
+    
+}
+
+.header__container{
+    display: flex;
+    box-sizing: border-box;
+    justify-content: space-around;
+    justify-items: center;
+    margin-left: 80px;
+
+
+}
+
+footer h3{
+    font-size: 18px;
+    font-weight: 400;
+    margin-bottom: 30px;
+    text-decoration: underline;
+    margin-left: 80px;
+}
+
+footer .col{
+    flex-basis: 25%;
+    flex-grow: 1;
+    margin-bottom: 20px;
+}
+
+footer .col a{
+    display: block;
+    color: #777;
+    font-size: var(--taille-texte-netflix);
+    margin-bottom: 10px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

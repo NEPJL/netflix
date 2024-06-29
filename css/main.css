@@ -1,0 +1,43 @@
+/* importation des différentes pages */
+@import url('/css/sections/style.css');
+@import url('/css/sections/');
+@import url('/css/sections/footer.css');
+@import url('/css/responsive.css');
+
+/* reset - variables */
+:root{
+    /* taille */
+    --taille-big-netflix: 48px;
+    --taille-titre-netflix:32px;
+    --taille-sous-titre-netflix:24px;
+    --taille-sub-titre-netflix:22px;
+    --taille-base-netflix:16px;
+    --taille-texte-netflix:14px
+    /* police */
+    --police-netflix-dsecondaire:"Arial", sans-serif;
+    --police-netflix-primary: "Helvetica Neue", 'Poppins', 'Roboto', 'Segoe UI', Tahoma, 'Geneva', Verdana, sans-serif;
+    /* couleurs */
+    --rouge-netflix:#dd0000;
+    --rouge-netflix-seconde:#db0001;
+    --noir-netflix:#000000;
+    --gris-netflix-clair:#f2f2f2;
+    --gris-netflix-fonce:#333333;
+    --blanc-netflix:#ffffff;
+
+
+}
+
+html, body{
+    margin: 0;
+    padding: 0;
+    font-family: var(--police-netflix-primary);
+    box-sizing: border-box;
+}
+
+body{
+    background-color: var(--noir-netflix);
+    color: var(--blanc-netflix);
+
+    
+}
+
